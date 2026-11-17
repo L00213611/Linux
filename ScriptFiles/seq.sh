@@ -4,7 +4,7 @@
 # Function: Simple number check
 # Script: seq.sh
 
-for indexnumber in $ (seq 10)
+for indexnumber in {1..10}
 do
     touch TextFile$indexnumber.txt
 done
